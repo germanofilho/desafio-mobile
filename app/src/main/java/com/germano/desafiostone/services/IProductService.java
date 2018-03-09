@@ -12,6 +12,6 @@ import retrofit2.http.GET;
  */
 
 public interface IProductService {
-    @GET("desafio-mobile/master/products.json")
+    @GET("desafio-mobile/master/store/products.json")
     Observable<List<Product>> getProductList();
 }
